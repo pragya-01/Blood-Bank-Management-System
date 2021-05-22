@@ -1,0 +1,92 @@
+/* Bordered form */
+
+form {
+  border: 5px solid #f1f1f1;
+}
+h1{
+  text-align: center;
+  font-family: 'Baloo 2', serif;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.bg-image{
+ background-image: 'D:\food\blood-thepix-shapes-free-png-favpng-uxRybzAwZgN8xUUSXiDw8FdXF.jpg';
+ min-height: 380px;
+  /* Center and scale the image nicely */
+ background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display:block
+  text-align:center;
+}
+.container {
+  display:inline block;
+  margin-left:auto;
+  margin-right: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  text-align:center;
+  position: absolute;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: 30%;
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding:10px;
+  margin-right:100px;
+  background-color: #e2e9e9
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
